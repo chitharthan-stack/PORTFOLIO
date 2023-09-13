@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
+  
 }
+
+body{
+  background-color: #191919;
+}
+
+
 
 /*----header-----*/
 
@@ -38,6 +45,7 @@
   padding-top: 10px;
   padding-left: 10px;
   font-size: 2em;
+ 
 }
 
 @media screen and (max-width: 767px) {
@@ -87,6 +95,7 @@
 /*----About----*/
 
 .about {
+  margin-top: 100px;
   height: 20em;
   padding: 50px;
   background-color: #191919;
@@ -100,6 +109,7 @@
   height: 30em;
   width: 100%;
   border-radius: 9px;
+  background-color: #191919;
 }
 .abt-det {
   flex-basis: 70%;
@@ -118,8 +128,9 @@
 
 @media screen and (max-width: 767px) {
   .about {
-    height: 10em;
+    height: 9em;
     padding: 18px;
+    margin-top: 0px;
   }
   .image img {
     display: none;
@@ -148,6 +159,7 @@
 .SKILL {
   height: 40em;
   background-color: #191919;
+  margin-top: 150px;
 }
 #skill {
   padding-top: 80px;
@@ -184,6 +196,7 @@
   .SKILL {
     height: 13em;
     background-color: #191919;
+    margin-top: 0px;
   }
   #skill {
     padding-top: 20px;
@@ -275,6 +288,7 @@
   .ed {
     height: 35em;
     background-color: #191919;
+    margin-top: 20px;
   }
   .ed h2 {
     padding-top: 30px;
@@ -463,9 +477,9 @@
 
 .cursor {
   position: fixed;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #c6c6c6;
+  width: 30px;
+  height: 30px;
+  border: 2px solid honeydew;
   border-radius: 50%;
   left: 0;
   right: 0;
@@ -476,9 +490,9 @@
 
 .cursor2 {
   position: fixed;
-  width: 8px;
-  height: 8px;
-  background-color: #c6c6c6;
+  width: 10px;
+  height: 10px;
+  background-color:#3330e4;
   border-radius: 50%;
   left: 0;
   right: 0;
@@ -487,15 +501,19 @@
   transition: 0.3s;
 }
 
-.studies:hover ~ .cursor {
-  transform: translate(-50%, -50%) scale(1.5);
-  background-color: #c6c6c6;
-  opacity: 0.5;
+@media screen and (max-width: 767px) {
+  .cursor {
+    width: 0px;
+    height: 0px;
+  }
+  
+  .cursor2 {
+    width: 0px;
+    height: 0px;
+  }
 }
 
-.studies:hover ~ .cursor {
-  opacity: 0;
-}
+
 
 /*----blinker----*/
 
@@ -503,7 +521,7 @@
     padding-top: 10px;
   font-size: 2em;
   font-weight: bolder;
-  color: #3330e4;
+  color: honeydew;
   animation: blink 1s infinite;
 }
 
@@ -518,9 +536,10 @@
 }
 
 #Typewriter {
-    padding-top: 10px;
-    padding-left: 5px;
+  padding-top: 10px;
+  padding-left: 5px;
   font-size: 2em;
   font-weight: bolder;
-  color: #3330e4;
+  color: #3330e4; 
 }
+

@@ -7,16 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/e1861f2b78.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
   <title>CHITHARTHAN</title>
   <link rel="icon" href="image/aq.png" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
-<body>
-
-
+<body >
+  <script>
+    AOS.init();
+  </script>
   <div class="cursor"></div>
   <div class="cursor2"></div>
   <script>
@@ -31,10 +33,10 @@
 
   <section>
     <div class="container-hd">
-      <div class="row-hd">
+      <div class="row-hd" style="background-color: inherit;">
         <h1>Hi, name is CHITHARTHAN</h1>
         <div id="type">
-          <h3>and i am a</h3>
+          <h3 >i am a</h3>
           <span id="Typewriter"></span>
           <span id="blinker">|</span>
         </div>
@@ -45,7 +47,7 @@
         return new Promise((resolve) => setTimeout(resolve, ms));
       }
 
-      const phrases = ["Developer", "Artist", "Freelancer","Bionformatician"];
+      const phrases = ["Developer", "Artist", "Freelancer", "Bionformatician"];
       const el = document.getElementById("Typewriter");
 
       let sleepTime = 100;
@@ -87,12 +89,12 @@
     <div class="about">
       <div class="abt-row">
         <div class="image">
-          <img src="image/res.jpg" alt="">
+          <img data-aos="zoom-out-right" data-aos-once="true"  src="image/res.jpg" alt="">
         </div>
-        <div class="abt-det">
-          <h2>ABOUT ME</h2>
-          <p>Welcome to my portfolio! I'm a dedicated and skilled Full Stack Developer with a passion for creating
-            elegant and efficient web solutions. With a keen eye for detail and a deep understanding of both front-end
+        <div class="abt-det ">
+          <h2 class="hidden" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" >ABOUT ME</h2>
+          <p class="hidden"  data-aos="fade-up-left" data-aos-duration="1000" data-aos-once="true">Welcome to my portfolio! I'm a dedicated and skilled Full Stack Developer with a passion for
+            creating elegant and efficient web solutions. With a keen eye for detail and a deep understanding of both front-end
             and back-end technologies, I bring ideas to life through beautifully designed, user-friendly, and
             high-performing applications.
           </p>
@@ -105,48 +107,48 @@
   <!--Skill---->
 
   <section>
-    <div class="SKILL">
-      <h2 id="skill">SKILL</h2>
+    <div class="SKILL ">
+      <h2 id="skill" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true">SKILL</h2>
       <div class="container-skill">
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
           style="background-image: url(image/html.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
           style="background-image: url(image/css.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
           style="background-image: url(image/python.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
           style="background-image: url(image/flask.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
           style="background-image: url(image/django.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
       </div>
       <div class="container-skill-2">
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="800" data-aos-once="true"
           style="background-image: url(image/mysql.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="800" data-aos-once="true"
           style="background-image: url(image/mongodb.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="800" data-aos-once="true"
           style="background-image: url(image/js.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="800" data-aos-once="true"
           style="background-image: url(image/code.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
-        <div class="row-s"
+        <div class="row-s" data-aos="fade-up" data-aos-duration="800" data-aos-once="true"
           style="background-image: url(image/bootstrap.png);background-repeat: no-repeat;background-size: contain;">
 
         </div>
@@ -157,24 +159,24 @@
   <!---Education---->
 
   <section>
-    <div class="ed">
-      <h2>EDUCATION</h2>
+    <div class="ed ">
+      <h2 data-aos="zoom-out" data-aos-duration="600" data-aos-once="true">EDUCATION</h2>
       <div class="ed-c">
-        <div class="studies"
+        <div class="studies" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"
           style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/bduc.jpg);background-position: center;background-repeat: no-repeat;background-size:cover;">
           <img class="logo-bdu" src="image/bdu.png" alt="">
           <p>M.Sc Bioinformatics</p>
           <p>Bharathidasan university</p>
           <P>CGPA: 8.35</P>
         </div>
-        <div class="studies"
+        <div class="studies" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"
           style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('image/ck.jpeg');background-position: center;background-repeat: no-repeat;background-size: cover;">
           <img class="logo-ck" src="image/cks.png" alt="">
           <p id="ck">HSC</p>
           <p>CK School of practical Knowledge</p>
           <p>Percentage: 65.9%</p>
         </div>
-        <div class="studies"
+        <div class="studies" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"
           style="background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/apss.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;">
           <img class="logo-aps" src="image/aps.png" alt="">
           <p>SSLC</p>
@@ -188,10 +190,10 @@
   <!---Resume---->
 
   <section>
-    <div class="resume">
-      <h2 id="resume">Here is my resume !</h2>
+    <div class="resume ">
+      <h2 id="resume" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">Here is my resume !</h2>
       <div class="hero-button">
-        <a href="Resume.pdf" style="text-decoration: none; color: inherit;"> <button> RESUME</button> </a>
+        <a href="Resume.pdf" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" style="text-decoration: none; color: inherit;"> <button> RESUME</button> </a>
       </div>
     </div>
   </section>
@@ -199,7 +201,7 @@
   <!--contact--->
 
   <section>
-    <div class="contact">
+    <div class="contact ">
       <div class="details">
         <i class="fa-regular fa-envelope "></i>
         <a href=mailto:“sidhupkc@gmail.com”>
