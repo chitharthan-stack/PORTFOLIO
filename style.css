@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
-  
 }
 
 body{
   background-color: #191919;
 }
+
 
 
 
@@ -50,7 +50,7 @@ body{
 
 @media screen and (max-width: 767px) {
   .container-hd {
-    height: 20em;
+    height: 40em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(image/res.jpg);
     background-size: cover;
@@ -128,9 +128,9 @@ body{
 
 @media screen and (max-width: 767px) {
   .about {
-    height: 9em;
+    height: 10em;
     padding: 18px;
-    margin-top: 0px;
+    margin-top: 28px;
   }
   .image img {
     display: none;
@@ -196,7 +196,7 @@ body{
   .SKILL {
     height: 13em;
     background-color: #191919;
-    margin-top: 0px;
+    margin-top: 10px;
   }
   #skill {
     padding-top: 20px;
@@ -288,7 +288,7 @@ body{
   .ed {
     height: 35em;
     background-color: #191919;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   .ed h2 {
     padding-top: 30px;
@@ -476,7 +476,7 @@ body{
 /*--cursor--*/
 
 .cursor {
-  position: relative;
+  position: fixed;
   width: 30px;
   height: 30px;
   border: 2px solid honeydew;
@@ -489,7 +489,7 @@ body{
 }
 
 .cursor2 {
-  position: relative;
+  position: fixed;
   width: 10px;
   height: 10px;
   background-color:#3330e4;
