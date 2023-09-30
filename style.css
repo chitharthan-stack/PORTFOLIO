@@ -17,7 +17,7 @@ body{
   display: flex;
   justify-content: start;
   align-items: center;
-  height: 45em;
+  height: 48em;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 1),
@@ -50,7 +50,7 @@ body{
 
 @media screen and (max-width: 767px) {
   .container-hd {
-    height: 40em;
+    height: 42em;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(image/res.jpg);
     background-size: cover;
@@ -96,7 +96,7 @@ body{
 
 .about {
   margin-top: 100px;
-  height: 20em;
+  height: 31em;
   padding: 50px;
   background-color: #191919;
 }
@@ -159,7 +159,7 @@ body{
 .SKILL {
   height: 40em;
   background-color: #191919;
-  margin-top: 150px;
+
 }
 #skill {
   padding-top: 80px;
@@ -503,13 +503,11 @@ body{
 
 @media screen and (max-width: 767px) {
   .cursor {
-    width: 0px;
-    height: 0px;
+   visibility: hidden;
   }
   
   .cursor2 {
-    width: 0px;
-    height: 0px;
+    visibility: hidden;
   }
 }
 
