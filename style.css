@@ -5,12 +5,12 @@
 }
 
 body{
-  background-color: #191919;
+  background-color: #000000;
 }
 
-
-
-
+a{
+  text-decoration: none;
+}
 /*----header-----*/
 
 .container-hd {
@@ -43,7 +43,7 @@ body{
 .row-hd h3 {
   color: honeydew;
   padding-top: 10px;
-  padding-left: 10px;
+  
   font-size: 2em;
  
 }
@@ -92,13 +92,23 @@ body{
   }
 }
 
+/*----socialmedia-----*/
+
+.socialmedia img{
+  height: 30px;
+  padding-right: 20px;
+}
+
+.socialmedia{
+  padding-top: 20px;
+}
+
 /*----About----*/
 
 .about {
-  margin-top: 100px;
   height: 31em;
   padding: 50px;
-  background-color: #191919;
+ 
 }
 .abt-row {
   display: flex;
@@ -109,7 +119,7 @@ body{
   height: 30em;
   width: 100%;
   border-radius: 9px;
-  background-color: #191919;
+ 
 }
 .abt-det {
   flex-basis: 70%;
@@ -118,7 +128,7 @@ body{
 .abt-det h2 {
   color: #3330e4;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 4em;
 }
 .abt-det p {
   color: honeydew;
@@ -158,14 +168,14 @@ body{
 
 .SKILL {
   height: 40em;
-  background-color: #191919;
+
 
 }
 #skill {
   padding-top: 80px;
   text-align: center;
   color: #3330e4;
-  font-size: 40px;
+  font-size: 4em;
   font-weight: 900;
 }
 .container-skill {
@@ -195,7 +205,7 @@ body{
 @media screen and (max-width: 767px) {
   .SKILL {
     height: 13em;
-    background-color: #191919;
+  
     margin-top: 10px;
   }
   #skill {
@@ -241,13 +251,13 @@ body{
 
 .ed {
   height: 35em;
-  background-color: #191919;
+
 }
 .ed h2 {
   padding-top: 50px;
   text-align: center;
   color: #3330e4;
-  font-size: 40px;
+  font-size: 4em;
   font-weight: 900;
 }
 .ed-c {
@@ -257,7 +267,7 @@ body{
 .studies {
   height: 25em;
   width: 35em;
-  background-color: #191919;
+
   color: honeydew;
   display: flex;
   align-items: center;
@@ -287,7 +297,7 @@ body{
 @media screen and (max-width: 767px) {
   .ed {
     height: 35em;
-    background-color: #191919;
+    
     margin-top: 50px;
   }
   .ed h2 {
@@ -305,7 +315,7 @@ body{
   .studies {
     height: 10em;
     width: inherit;
-    background-color: #191919;
+   
     color: honeydew;
     display: flex;
     align-items: center;
@@ -338,7 +348,7 @@ body{
 
 .resume {
   height: 8em;
-  background-color: #191919;
+
 }
 #resume {
   display: flex;
@@ -352,7 +362,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #191919;
+
   padding-top: 20px;
 }
 
@@ -371,7 +381,7 @@ body{
 @media screen and (max-width: 767px) {
   .resume {
     height: 4em;
-    background-color: #191919;
+
     padding-top: 10px;
   }
   #resume {
@@ -386,7 +396,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #191919;
+
     padding-top: 10px;
   }
   .hero-button button {
@@ -408,7 +418,7 @@ body{
 .contact {
   height: 8em;
   padding-top: 50px;
-  background-color: #191919;
+ 
 }
 .contact h2 {
   padding-top: 50px;
@@ -451,7 +461,7 @@ body{
   .contact {
     height: 7.5em;
     padding-top: 15px;
-    background-color: #191919;
+   
   }
   .details {
     font-size: 12px;
@@ -477,9 +487,9 @@ body{
 
 .cursor {
   position: fixed;
-  width: 30px;
-  height: 30px;
-  border: 2px solid honeydew;
+  width: 20px;
+  height: 20px;
+  border: 1px solid honeydew;
   border-radius: 50%;
   left: 0;
   right: 0;
@@ -490,15 +500,15 @@ body{
 
 .cursor2 {
   position: fixed;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color:#3330e4;
   border-radius: 50%;
   left: 0;
   right: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 @media screen and (max-width: 767px) {
@@ -535,7 +545,7 @@ body{
 
 #Typewriter {
   padding-top: 10px;
-  padding-left: 5px;
+  padding-left: 10px;
   font-size: 2em;
   font-weight: bolder;
   color: honeydew; 
